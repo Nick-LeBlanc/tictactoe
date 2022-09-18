@@ -120,6 +120,16 @@ private:
 
         //win state
         case 3:
+
+            switch (event.key.code)
+            {
+            case (sf::Keyboard::Key::Y):
+                reset();
+                break;
+            case (sf::Keyboard::Key::N):
+                window.close();
+                break;
+            }
         break;
         //draw state
         case 4:
@@ -146,15 +156,20 @@ private:
         //win state
 
         case 3:
-            changeText((winner + "'s win!"));
-            game_window.draw(this->text);
             Board.render(game_window);
             renderSquares(game_window);
+            changeText(("Do you want to play again? Y/N"));
+            this->text.setFillColor(sf::Color::Red);
+            game_window.draw(this->text);
+            this->text.setFillColor(sf::Color::White);
 
         break;
 
         //draw state
         case 4:
+            changeText(("Draw. Play again? Y/N"));
+            this->text.setFillColor(sf::Color::Red);
+            game_window.draw(this->text);
 
         break;
         }
@@ -330,5 +345,20 @@ private:
                 O.render(game_window, { 417,417 });
         }
     };
+
+    void reset() {
+        this->state = 0;
+        this->first = NULL, this->second = NULL;
+        this->sqaures[0][0] = '1';
+        this->sqaures[0][1] = '2';
+        this->sqaures[0][2] = '3';
+        this->sqaures[1][0] = '4';
+        this->sqaures[1][1] = '5';
+        this->sqaures[1][2] = '6';
+        this->sqaures[2][0] = '7';
+        this->sqaures[2][1] = '8';
+        this->sqaures[2][2] = '9';
+        changeText("Press Space Bar to play!");
+    }
 };
 
