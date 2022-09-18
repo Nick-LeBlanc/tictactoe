@@ -7,7 +7,7 @@
 int main()
 {
     Game game;
-    //test comment
+
     game.run();
 
     return 0;

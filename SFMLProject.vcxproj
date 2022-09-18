@@ -136,8 +136,13 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Board.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="LogicTest.h" />
+    <ClInclude Include="Pieces.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\Downloads\OpenSans.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,93 @@
+﻿'SFMLProject.exe' (Win32): Loaded 'C:\Users\nickl\source\repos\tictactoe\x64\Debug\SFMLProject.exe'. Symbols loaded.
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Users\nickl\source\repos\tictactoe\sfml-graphics-d-2.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Users\nickl\source\repos\tictactoe\sfml-window-d-2.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\gdi32.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\win32u.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\gdi32full.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\msvcp_win.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbase.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\user32.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\advapi32.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\sechost.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Users\nickl\source\repos\tictactoe\sfml-system-d-2.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140_1d.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\opengl32.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\combase.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\winmm.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\glu32.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\imm32.dll'. 
+The thread 0x4310 has exited with code 0 (0x0).
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\uxtheme.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\msctf.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\oleaut32.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\bcryptprimitives.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\clbcatq.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\AppXDeploymentClient.dll'. 
+'SFMLProject.exe' (Win32): Unloaded 'C:\Windows\System32\AppXDeploymentClient.dll'
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c43eff7079c4c90c\nvoglv64.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\shell32.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\setupapi.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\cfgmgr32.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\bcrypt.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\ole32.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\wtsapi32.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\cryptbase.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\msasn1.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\cryptnet.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\crypt32.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\drvstore.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\devobj.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\wldp.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\wintrust.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\ntmarta.dll'. 
+The thread 0x3e14 has exited with code 0 (0x0).
+The thread 0x369c has exited with code 0 (0x0).
+The thread 0x25c4 has exited with code 0 (0x0).
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\windows.storage.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\SHCore.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\shlwapi.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\DXCore.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\nvspcap64.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\profapi.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\dwmapi.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\powrprof.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\umpdc.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\winsta.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\dinput8.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\InputHost.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\CoreMessaging.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\CoreUIComponents.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\propsys.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\ws2_32.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\hid.dll'. 
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\pid.dll'. 
+'SFMLProject.exe' (Win32): Unloaded 'C:\Windows\System32\pid.dll'
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\pid.dll'. 
+'SFMLProject.exe' (Win32): Unloaded 'C:\Windows\System32\pid.dll'
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\pid.dll'. 
+'SFMLProject.exe' (Win32): Unloaded 'C:\Windows\System32\pid.dll'
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\pid.dll'. 
+'SFMLProject.exe' (Win32): Unloaded 'C:\Windows\System32\pid.dll'
+'SFMLProject.exe' (Win32): Loaded 'C:\Windows\System32\TextInputFramework.dll'. 
+The thread 0x534c has exited with code 0 (0x0).
+The thread 0x1b24 has exited with code 0 (0x0).
+The thread 0x4b74 has exited with code 0 (0x0).
+The thread 0x4d30 has exited with code 0 (0x0).
+The thread 0x5130 has exited with code 0 (0x0).
+The thread 0x4eb0 has exited with code 0 (0x0).
+The thread 0x1a1c has exited with code 0 (0x0).
+The thread 0x5504 has exited with code 0 (0x0).
+The thread 0x4ba4 has exited with code 0 (0x0).
+The thread 0x1cc has exited with code 0 (0x0).
+The program '[2460] SFMLProject.exe' has exited with code 0 (0x0).
