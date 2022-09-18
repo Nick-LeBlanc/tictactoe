@@ -133,6 +133,15 @@ private:
         break;
         //draw state
         case 4:
+            switch (event.key.code)
+            {
+            case (sf::Keyboard::Key::Y):
+                reset();
+                break;
+            case (sf::Keyboard::Key::N):
+                window.close();
+                break;
+            }
             
         break;
         }
@@ -170,31 +179,30 @@ private:
             changeText(("Draw. Play again? Y/N"));
             this->text.setFillColor(sf::Color::Red);
             game_window.draw(this->text);
+            this->text.setFillColor(sf::Color::White);
 
         break;
         }
-
-
     }
 
     void turn(char player) {
 
         if (sqaure(0, 0, 157, 157)) {
-            std::cout << "top left\n";
+            //std::cout << "top left\n";
             if (!(this->sqaures[0][0] == 'X' || this->sqaures[0][0] == 'O')) {
                 this->sqaures[0][0] = player;
                 this->first_player = !this->first_player;
             }
         }
         if (sqaure(167, 0, 324, 157)) {
-            std::cout << "top middle\n";
+            //std::cout << "top middle\n";
             if (!(this->sqaures[1][0] == 'X' || this->sqaures[1][0] == 'O')) {
                 this->sqaures[1][0] = player;
                 this->first_player = !this->first_player;
             }
         }
         if (sqaure(334, 0, 501, 157)) {
-            std::cout << "top right\n";
+            //std::cout << "top right\n";
             if (!(this->sqaures[2][0] == 'X' || this->sqaures[2][0] == 'O')){
                 this->sqaures[2][0] = player;
                 this->first_player = !this->first_player;
@@ -202,21 +210,21 @@ private:
         }
 
         if (sqaure(0, 167, 157, 324)) {
-            std::cout << "middle left\n";
+            //std::cout << "middle left\n";
             if (!(this->sqaures[0][1] == 'X' || this->sqaures[0][1] == 'O')) {
                 this->sqaures[0][1] = player;
                 this->first_player = !this->first_player;
             }
         }
         if (sqaure(167, 167, 324, 324)) {
-            std::cout << "middle\n";
+            //std::cout << "middle\n";
             if (!(this->sqaures[1][1] == 'X' || this->sqaures[1][1] == 'O')){
                 this->sqaures[1][1] = player;
                 this->first_player = !this->first_player;
             }
         }
         if (sqaure(334, 167, 501, 324)) {
-            std::cout << "middle right\n";
+            //std::cout << "middle right\n";
             if (!(this->sqaures[2][1] == 'X' || this->sqaures[2][1] == 'O')){
                 this->sqaures[2][1] = player;
                 this->first_player = !this->first_player;
@@ -224,21 +232,21 @@ private:
         }
 
         if (sqaure(0, 334, 157, 501)) {
-            std::cout << "bottom left\n";
+            //std::cout << "bottom left\n";
             if (!(this->sqaures[0][2] == 'X' || this->sqaures[0][2] == 'O')){
                 this->sqaures[0][2] = player;
                 this->first_player = !this->first_player;
             }
         }
         if (sqaure(167, 334, 324, 501)) {
-            std::cout << "bottom middle\n";
+            //std::cout << "bottom middle\n";
             if (!(this->sqaures[1][2] == 'X' || this->sqaures[1][2] == 'O')){
                 this->sqaures[1][2] = player;
                 this->first_player = !this->first_player;
             }
         }
         if (sqaure(334, 334, 501, 501)) {
-            std::cout << "bottom right\n";
+            //std::cout << "bottom right\n";
             if (!(this->sqaures[2][2] == 'X' || this->sqaures[2][2] == 'O')){
                 this->sqaures[2][2] = player;
                 this->first_player = !this->first_player;
@@ -257,7 +265,6 @@ private:
     }
 
     void checkWin(char player) {
-
         for (int i = 0; i < 3; i++) {
             if (this->sqaures[i][0] == this->sqaures[i][1] && this->sqaures[i][0] == this->sqaures[i][2]) {
                 this->state = 3;
@@ -278,10 +285,19 @@ private:
         if (this->sqaures[0][2] == this->sqaures[1][1] && this->sqaures[1][1] == this->sqaures[2][0]) {
             this->state = 3;
             this->winner = player;
-
         }
-
-
+        
+        int count=0;
+        for (int i = 0; i < 3; i++)
+            for (int j = 0; j < 3; j++)
+            {
+                if (this->sqaures[i][j] != 'O' && this->sqaures[i][j] != 'X') {
+                    count++;
+                }
+            }
+        if (count <= 0) {
+            state = 4;
+        }
     }
 
     void renderSquares(sf::RenderWindow& game_window) {
